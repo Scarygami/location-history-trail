@@ -1,0 +1,25 @@
+Demonstration of what you can do with your location history data which you can get as JSON file via Google Takeout (https://www.google.com/takeout/?pli=1#custom:latitude).
+
+Before you can use this with your data you will have to use the latitude_json_converter (https://github.com/Scarygami/latitude-json-converter) with the following parameters:
+
+latitude_json_converter.py latitude.json input.js -f js
+
+Replace the input.js in this repository with the input.js you created like this.
+
+Then just open the index.html in a browser of your choice (tested in Chrome only...)
+
+----------------------
+
+Copyright 2012 Gerwin Sturm, FoldedSoft e.U. / www.foldedsoft.at
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

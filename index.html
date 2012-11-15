@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Trail</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="input.js"></script>
+  <script src="https://maps.google.com/maps/api/js?sensor=false&amp;key=AIzaSyA_sMogIWmrztU7HRx4dL8N5c7Y9xX_5vc"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="map_canvas"></div>
+  <table id="controls">
+    <tr>
+      <td style="width: 65px; max-width: 65px; min-width: 65px; text-align: right;">Position:</td>
+      <td style="text-align: left; border-right: 2px solid black;"><input type="range" id="pos" min="0" max="100" value="0" style="width: 98%" /></td>
+      <td id="time" style="width: 160px; min-width: 160px; max-width: 160px; text-align: center; background-color: yellow; font-weight: bold;"></td>
+      <td style="width: 45px; max-width: 45px; min-width: 45px; text-align: right; border-left: 2px solid black;">Speed:</td>
+      <td style="text-align: left;"><input type="range" id="speed" min="0" max="100" value="90"  style="width: 98%" /></td>
+    </tr>
+  </table>
+</body>
+</html>
