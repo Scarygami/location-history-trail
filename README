@@ -1,8 +1,8 @@
-Demonstration of what you can do with your location history data which you can get as JSON file via Google Takeout (https://www.google.com/takeout/?pli=1#custom:latitude).
+Demonstration of what you can do with your location history data which you can get as JSON file via Google Takeout (https://takeout.google.com/settings/takeout/custom/location_history).
 
-Before you can use this with your data you will have to use the latitude_json_converter (https://github.com/Scarygami/latitude-json-converter) with the following parameters:
+Before you can use this with your data you will have to use the location_history_json_converter (https://github.com/Scarygami/location-history-json-converter) with the following parameters:
 
-latitude_json_converter.py latitude.json input.js -f js
+location_history_json_converter.py LocationHistory.json -f js -o input.js
 
 Replace the input.js in this repository with the input.js you created like this.
 
@@ -10,7 +10,7 @@ Then just open the index.html in a browser of your choice (tested in Chrome only
 
 ----------------------
 
-Copyright 2012 Gerwin Sturm, FoldedSoft e.U. / www.foldedsoft.at
+Copyright 2012-2017 Gerwin Sturm
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
